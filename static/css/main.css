@@ -1,0 +1,292 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 16px;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 0;
+  border-top: 1px solid #F7F1F1;
+  border-bottom: 1px solid #fff;
+}
+span.time, p.categories {
+  color: #ADADAD;
+  margin: 20px 0 0 0;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+span.time, p.categories a {
+  color: #528fa9;
+}
+h1, h2, h3 {
+  font-weight: normal;
+}
+h1 {
+  margin: 0px 0 20px 0;
+  font-size: 40px;
+  font-weight: 500;
+}
+h2, h3 {
+  margin: 30px 0 20px 0;
+}
+a, a:link, a:active {
+  text-decoration: underline;
+  color: #32a8d9; /* water */
+}
+a:hover {
+  color: #ff6643; /* ketchup */
+  text-decoration: underline;
+}
+a:visited {
+  color: #d0909a; /* dusty-rose */
+}
+
+p bold {
+  font-weight: 700;
+}
+p.light {
+  color: #666;
+  font-weight: 300;
+}
+p.light b {
+  font-weight: 400;
+}
+
+blockquote {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Layout */
+.main-layout {
+  margin-top: 20px;
+}
+#playground {
+  margin-top: 60px;
+  height: 90px;
+  margin-bottom:  84px;
+}
+.sidebar-nav {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.sidebar-nav li {
+  margin: 0 0 20px 10px;
+  list-style: none;
+  text-transform: lowercase;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #32a8d9; /* water */
+  padding: 10px;
+  border-radius: 10px;
+}
+.sidebar-nav li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #fff;
+}
+
+
+/* Post List */
+
+ul.posts {
+  margin: 0px;
+  padding: 0px;
+}
+ul.posts li {
+  list-style-type: none;
+  margin-top: 30px;
+  display: block;
+  min-height: 160px;
+}
+ul.posts li a img {
+  width: 150px  !important;
+  float: left;
+  margin-right: 20px;
+  padding: 0px;
+}
+ul.posts li strong {
+  font-size: 20px;
+}
+
+/* Post */
+
+.byline {
+  font-style: italic;
+  display: block;
+}
+.post-header .byline {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+img + em {
+  font-size: 14px;
+  display:block;
+  margin: 10px 0px;
+  font-style: italic;
+  line-height: 16px;
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+
+
+/* Content */
+header img.logo {
+}
+
+footer {
+  border-top: 1px solid #F7F1F1;
+  margin-top: 40px;
+}
+
+div.post-content .btn-tags {
+  margin-bottom: 3px;
+}
+
+div#content img {
+  width: 100%;
+  border: 1px solid #eeeeee;
+}
+
+/* Left column */
+
+/* Pagination */
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+.PageNavigation .next {
+  text-align: right;
+}
+.PageNavigation .prev {
+  text-align: left;
+}
+
+/* Social Icons */
+.social{
+  display: block;
+  margin: 20px 20px 0 0;
+}
+.social ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.social ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.social li a {
+  font-size: 16px;
+  color: #969394;
+}
+.social li a:hover {
+  color: #6D6D6D;
+}
+
+.share-page {
+  padding: 10px 10px 5px;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.post-content img,
+.content img {
+  max-width: 100%
+}
+
+/* Responsive Conditional */
+@media (max-width: 1200px) {
+  .main-layout {
+    margin-top: 20px;
+  }
+  #playground {
+    margin-top: 47px;
+    height: 73px;
+    margin-bottom:  71px;
+  }
+}
+@media (max-width: 992px) {
+  .main-layout {
+    margin-top: 20px;
+  }
+  #playground {
+    margin-top: 27px;
+    height: 58px;
+    margin-bottom: 53px;
+  }
+}
+@media (max-width: 768px) {
+  div.col-sm-3 {
+    margin-top: 20px;
+  }
+  .main-layout {
+    margin-top: 0px;
+  }
+  .sidebar-nav li {
+    display: inline-block;
+  }
+  #playground {
+    height: 30px;
+  }
+}
+
+/* Colors */
+.water { color: #32a8d9; }
+.mustard { color: #ffb400; }
+.ketchup { color: #ff6643; }
+.ripe-lime { color: #739712; }
+.disty-rose { color: #d0909a; }
+.grey-blue { color: #528fa9; }
+.peach { color: #ff9a91; }
+
+/* author inset */
+.author-bio {
+  background: #eee;
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.author-bio em {
+  font-size: 20px;
+  font-weight: 400px;
+  font-style: normal;
+}
+.author-bio p {
+  margin: 5px 0px;
+  padding: 0px;
+}
+.author-bio img {
+  margin-bottom: 10px;
+  max-width: 200px;
+}
+
+/* project list */
+.projects {
+  margin-top: 20px;
+}
+.project {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.project img {
+  margin-bottom: 10px;
+}
+.project h3 {
+  margin: 0px 0px 10px 0px;
+  font-weight: 700;
+  padding: 0px;
+}
+.project p {
+}

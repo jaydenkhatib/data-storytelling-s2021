@@ -1,0 +1,9 @@
+<li>
+  {% if post.thumbnail %}
+  <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/static/img/posts/{{ post.thumbnail }}" /></a>
+  {% endif %}
+  <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
+  {% assign author_names = post.author | split: ',' %}
+  <span class="byline">by {% include author_names.html %} on {{ post.date | date: "%B %-d, %Y" }}</span>
+  <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 290 }}</p>
+</li>
