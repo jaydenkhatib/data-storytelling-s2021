@@ -69,6 +69,6 @@ $(function(){
   let map = L.map('my-map').setView([42.3370, -71.0892], 15);
   let osmTileLayer = L.tileLayer( 'http://a.tile.stamen.com/toner/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo( map );  
+  }).addTo( map );
 });
 </script>
