@@ -16,7 +16,7 @@ other things that you cannot on other hosts like WordPress. Your posts will get 
 
 ### If you do *not* feel comfortable with GitHub
 
-1. Checkout the [sample post source code](_posts/2021-03-11-sample-story.markdown) in this repository - you can see [the HTML version of it too](http://jrnl3700.dataculturegroup.org/2021/03/01/sample-story.html).
+1. Checkout the [sample post source code](https://raw.githubusercontent.com/dataculturegroup/data-storytelling-s2021/main/_posts/2021-03-11-sample-story.markdown) in this repository - you can see [the HTML version of it too](http://jrnl3700.dataculturegroup.org/2021/03/01/sample-story.html).
 2. Copy and paste that into a plain text file (or a Google Doc with no fonts or anything).
 3. Edit your plain text file to format your post in Markdown and add in any custom HTML or Javascript.
 4. Turn in your plain text file, or a link to it, and I will add it here so it will be automatically converted into a webpage.
